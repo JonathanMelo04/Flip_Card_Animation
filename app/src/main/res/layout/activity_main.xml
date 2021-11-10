@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/id_card_front"
+        android:id="@+id/card_front"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:text="@string/front_card"
@@ -21,7 +21,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/id_card_back"
+        android:id="@+id/card_back"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:text="@string/back_card"
@@ -43,5 +43,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/id_card_front" />
+        app:layout_constraintTop_toBottomOf="@+id/card_front" />
 </androidx.constraintlayout.widget.ConstraintLayout>
